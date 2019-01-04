@@ -1,0 +1,84 @@
+*{
+	font-family: Calibri;
+}
+
+
+.recipe {
+	margin-top: 50px;
+	margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.container {
+   
+
+}
+#header-img{
+	background-image: url('../images/crepe.jpg');
+	background-repeat: no-repeat;
+	padding: 100px 100px 100px 100px;
+	text-align: center;
+	margin-left: 85px;
+	
+}
+
+ul li, ol li {
+
+}
+
+ul li:before {
+
+}
+
+
+ol li:before {
+
+}
+
+
+#description-row {
+
+}
+
+#description-row, p {
+
+}
+
+#description-row, img {
+
+}
+
+#description-img {
+
+}
+
+
+h1 {
+	color: white;
+	font-size: 50px;
+	padding-right: 100px;
+
+}
+
+#ingredients-row {
+
+}
+
+h2 {
+
+}
+
+#ingredient-row, li {
+
+}
+
+* {
+
+}
+
+body {
+
+}
+
