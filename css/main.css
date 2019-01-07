@@ -6,7 +6,7 @@
 .recipe {
 	margin-top: 50px;
 	margin-bottom: 50px;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-right: 200px;
 
 }
@@ -25,20 +25,22 @@
 }
 
 ul li, ol li {
-
+   list-style-type: none;
+   counter-increment: ol-item;
 }
 
 ul li:before {
-
+    content: '-';
 }
 
 
 ol li:before {
-
+    content: counter(ol-item)")";
 }
 
 
 #description-row {
+	margin-left: 40px;
 
 }
 
@@ -67,7 +69,7 @@ h1 {
 }
 
 h2 {
-
+    margin-left: 40px;
 }
 
 #ingredient-row, li {
